@@ -1,0 +1,10 @@
+obj/rules.o: rules.cpp db.h main.h bignum.h serialize.h allocators.h \
+ version.h clientversion.h uint256.h sync.h net.h mruset.h netbase.h \
+ compat.h protocol.h addrman.h util.h script.h keystore.h crypter.h key.h \
+ scrypt_mine.h rules.h alert.h ui_interface.h wallet.h walletdb.h \
+ base58.h
+rules.cpp db.h main.h bignum.h serialize.h allocators.h :
+ version.h clientversion.h uint256.h sync.h net.h mruset.h netbase.h :
+ compat.h protocol.h addrman.h util.h script.h keystore.h crypter.h key.h :
+ scrypt_mine.h rules.h alert.h ui_interface.h wallet.h walletdb.h :
+ base58.h :
